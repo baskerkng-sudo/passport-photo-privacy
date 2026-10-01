@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Passport & ID Photo Maker</title>
+    <style>
+        :root {
+            --primary: #1e3a8a;
+            --accent: #2563eb;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #0f172a;
+            --text-muted: #475569;
+            --border: #e2e8f0;
+            --success: #16a34a;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 760px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            border: 1px solid var(--border);
+        }
+        .badge {
+            display: inline-block;
+            background-color: #dcfce7;
+            color: var(--success);
+            font-size: 13px;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 9999px;
+            margin-bottom: 16px;
+        }
+        h1 {
+            color: var(--primary);
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+        .updated {
+            color: var(--text-muted);
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+        h2 {
+            color: var(--primary);
+            font-size: 20px;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 6px;
+        }
+        p, li {
+            color: var(--text-muted);
+            font-size: 15px;
+            margin-bottom: 14px;
+        }
+        ul {
+            padding-left: 24px;
+            margin-bottom: 16px;
+        }
+        .highlight-box {
+            background-color: #eff6ff;
+            border-left: 4px solid var(--accent);
+            padding: 16px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .highlight-box p {
+            color: var(--primary);
+            font-weight: 500;
+            margin: 0;
+        }
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="badge">100% On-Device Processing</span>
+        <h1>Privacy Policy</h1>
+        <p class="updated"><strong>Application:</strong> Passport &amp; ID Photo Maker<br><strong>Effective Date:</strong> September 25, 2026</p>
+
+        <div class="highlight-box">
+            <p><strong>Core Guarantee:</strong> Passport &amp; ID Photo Maker does NOT collect, upload, transmit, or sell your photos, biometric data, or personal information. All image processing takes place exclusively on your device's local hardware.</p>
+        </div>
+
+        <h2>1. Information We Do Not Collect</h2>
+        <ul>
+            <li><strong>No Photo Uploads:</strong> Photos you select, take, or edit are processed in device volatile memory (RAM) and are never sent over the Internet.</li>
+            <li><strong>No Facial Recognition Data Retention:</strong> Face detection is performed strictly locally using Google ML Kit on-device native libraries. Facial landmark points are used solely for visual alignment guidelines and auto-cropping, and are discarded immediately when you close the editor.</li>
+            <li><strong>No Personal Identifiers:</strong> We do not ask for, store, or track your name, email, phone number, location, or device identifiers.</li>
+            <li><strong>No Advertising or Tracking:</strong> The application contains zero advertising SDKs, third-party analytics trackers, or telemetry services.</li>
+        </ul>
+
+        <h2>2. Device Permissions Used</h2>
+        <ul>
+            <li><strong>Camera (android.permission.CAMERA):</strong> Used solely to allow you to take a live portrait photograph from within the app. Camera frames are never saved to cloud storage.</li>
+            <li><strong>Scoped Storage (Android MediaStore):</strong> When you tap "Download &amp; Save Photo" or "Download A4 PDF", the file is saved directly into your device's local Pictures directory. The app does not read or scan your other personal files or media.</li>
+        </ul>
+
+        <h2>3. Third-Party Services</h2>
+        <p>The app incorporates Google ML Kit Face Detection, which executes entirely offline with pre-bundled native machine code. It does not communicate with external servers during operation.</p>
+
+        <h2>4. Data Retention &amp; Deletion</h2>
+        <p>Any temporary cache files created during an editing session can be permanently purged at any time by navigating to <em>Settings &gt; Storage &amp; Cache &gt; Clear Temporary Processing Files</em>, or by clearing app data in your Android system settings.</p>
+
+        <h2>5. Disclaimer &amp; Government Independence</h2>
+        <p>Passport &amp; ID Photo Maker is an independent digital tool. It is not affiliated with, authorized by, or associated with any government agency or passport office. Users are advised to review official photograph guidelines published by their respective issuing authority.</p>
+
+        <h2>6. Contact Us</h2>
+        <p>If you have any questions or feedback regarding this Privacy Policy, please contact our support team at:<br>
+        <strong>Email:</strong> support@passportphotomaker.app</p>
+
+        <footer>
+            &copy; 2026 Passport &amp; ID Photo Maker. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
